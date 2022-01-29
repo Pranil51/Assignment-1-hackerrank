@@ -1,0 +1,6 @@
+def f(line):
+#     line=line.split(" ")    
+#     line="-".join(line)
+    line=line.replace(" ","-")
+    print(line)
+f(str(input("enter string with spaces: ")))
