@@ -1,0 +1,10 @@
+def swap_case(s):  
+    q=""
+    for i in s:
+        if i.islower():
+            q+=(i.upper())
+        elif i.upper():
+            q+=(i.lower())
+        else:
+            q+=(i)
+    return q
