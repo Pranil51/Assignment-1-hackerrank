@@ -1,0 +1,14 @@
+n1=int(input())
+e=input()
+n2=int(input())
+f=input()
+if n1>0 and n2>0:
+    E=set(e.split(" "))
+    F=set(f.split(" "))
+    if (len(E)==n1 and len(F)==n2) or len(E.union(F))<1000:
+        print(len(E.intersection(F)))
+    else:
+        print("Data not as prescribed")
+else:
+     print("invalid input")
+           
